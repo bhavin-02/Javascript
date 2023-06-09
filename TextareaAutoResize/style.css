@@ -1,0 +1,13 @@
+textarea {
+    height: 20px;
+    width: 300px;
+    outline: none;
+    resize: none;
+    padding: 10px;
+    border: 1px solid #ccc;
+    scrollbar-width: none;
+}
+
+textarea::-webkit-scrollbar {
+    display: none;
+}

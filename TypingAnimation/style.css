@@ -1,0 +1,35 @@
+body {
+    display: flex;
+}
+
+.typing-animation {
+    display: inline-flex;
+    background: #f1f1f1;
+    padding: 13px 18px;
+    border-radius: 50px;
+    margin: 40px auto;
+}
+
+.typing-animation .dot {
+    height: 10px;
+    width: 10px;
+    opacity: 0.7;
+    margin: 0 3px;
+    border-radius: 50%;
+    background: #6c757d;
+    animation: animateDots 1.8s var(--delay) ease-in-out infinite;
+}
+
+@keyframes animateDots {
+    0%,
+    44% {
+        transform: translateY(0px);
+    }
+    28% {
+        opacity: 0.4;
+        transform: translateY(-9px);
+    }
+    44% {
+        opacity: 0.2;
+    }
+}

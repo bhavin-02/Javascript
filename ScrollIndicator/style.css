@@ -1,0 +1,9 @@
+div {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 5px;
+    border-radius: 2px;
+    background: #436cfe;
+}
