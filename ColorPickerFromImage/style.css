@@ -1,0 +1,10 @@
+body {
+    display: flex;
+}
+
+div {
+    display: flex;
+    gap: 5px;
+    width: 20%;
+    flex-direction: column;
+}
